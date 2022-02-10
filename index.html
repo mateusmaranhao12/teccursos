@@ -1,0 +1,166 @@
+<html>
+	<head>
+		<title>TecCursos</title>
+		<meta charset="utf-8">
+        <link rel="icon" href="img/logo.png">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	</head>
+	<body>
+
+        <header>
+            <nav class="navbar"> <!--Navbar-->
+                <span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fa fa-bars"></i>
+                </span>
+                <a class="logo" href="#"><img src="img/logo.png" height="100px"></a>
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a href="#home" class="nav-links">Home</a>
+                    </li>
+                    <li>
+                        <a href="#quem_somos" class="nav-links">Quem somos?</a>
+                    </li>
+                    <li>
+                        <a href="#contato" class="nav-links">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="inicial"> <!--Seção inicial-->
+            <h1>Aqui você encontra os melhores cursos do ano!</h1>
+        </section>
+        <section class="destaque"> <!--Seção destaque-->
+            <h2>Cursos em destaque</h2>
+        </section>
+        <section class="cartoes"> <!--Cartões-->
+            <div class="cartao">
+                <img src="img/card1.jpg">
+                <div class="curso-info">
+                    <h4>Curso Desenvolvimento Web Completo 2022</h4>
+                </div>
+                <div class="botao">
+                    <button class="botao botao-destaque" onclick="destaque1()">Clique aqui</button>
+                </div>
+            </div>
+            <div class="cartao">
+                <img src="img/card2.jpg">
+                <div class="curso-info">
+                    <h4>Curso Desenvolvimento Web Avançado 2022 com PHP, Laravel e Vue.JS</h4>
+                </div>
+                <div class="botao">
+                    <button class="botao botao-destaque" onclick="destaque2()">Clique aqui</button>
+                </div>
+            </div>
+            <div class="cartao">
+                <img src="img/card3.jpg">
+                <div class="curso-info">
+                    <h4>Algoritmos e Lógica de Programação 2022</h4>
+                </div>
+                <div class="botao">
+                    <button class="botao botao-destaque" onclick="destaque3()">Clique aqui</button>
+                </div>
+            </div>
+        </section>
+        <section class="design">
+            <h2>Cursos de Motion Designer</h2>
+        </section>
+        <section class="cartoes"> <!--Cartões-->
+            <div class="cartao">
+                <img src="img/dzn1.jpg">
+                <div class="curso-info">
+                    <h4>Motion Graphics: Adobe After Effects, Photoshop, Illustrator</h4>
+                </div>
+                <div class="botao">
+                    <button class="botao botao-destaque" onclick="design1()">Clique aqui</button>
+                </div>
+            </div>
+            <div class="cartao">
+                <img src="img/dzn2.jpg">
+                <div class="curso-info">
+                    <h4>After Effects para Motion designers: Do zero ao mercado</h4>
+                </div>
+                <div class="botao">
+                    <button class="botao botao-destaque" onclick="design2()">Clique aqui</button>
+                </div>
+            </div>
+            <div class="cartao">
+                <img src="img/dzn3.jpg">
+                <div class="curso-info">
+                    <h4>Adobe After Effects : Composição, Motion Graphics e VFX</h4>
+                </div>
+                <div class="botao">
+                    <button class="botao botao-destaque" onclick="design3()">Clique aqui</button>
+                </div>
+            </div>
+        </section>
+        <section class="python">
+            <h2>Melhores cursos de Python</h2>
+        </section>
+        <section class="cartoes"> <!--Cartões-->
+            <div class="cartao">
+                <img src="img/py1.jpg">
+                <div class="curso-info">
+                    <h4>Curso de Python 3 do Básico Ao Avançado (com projetos reais)</h4>
+                </div>
+                <div class="botao">
+                    <button class="botao botao-destaque" onclick="py1()">Clique aqui</button>
+                </div>
+            </div>
+            <div class="cartao">
+                <img src="img/py2.jpg">
+                <div class="curso-info">
+                    <h4>Programação em Python do básico ao avançado</h4>
+                </div>
+                <div class="botao">
+                    <button class="botao botao-destaque" onclick="py2()">Clique aqui</button>
+                </div>
+            </div>
+            <div class="cartao">
+                <img src="img/py3.jpg">
+                <div class="curso-info">
+                    <h4>Programação PYTHON do ZERO ao Avançado 2022 + 2 CURSOS</h4>
+                </div>
+                <div class="botao">
+                    <button class="botao botao-destaque" onclick="py3()">Clique aqui</button>
+                </div>
+            </div>
+        </section>
+        <section class="cartoes"> <!--Cartões-->
+            <div class="cartao">
+                <img src="img/py4.jpg">
+                <div class="curso-info">
+                    <h4>Formação Cientista de Dados com Python e R [2022]</h4>
+                </div>
+                <div class="botao">
+                    <button class="botao botao-destaque" onclick="py4()">Clique aqui</button>
+                </div>
+            </div>
+            <div class="cartao">
+                <img src="img/py5.jpg">
+                <div class="curso-info">
+                    <h4>Python 3 - Curso Completo do Básico ao Avançado</h4>
+                </div>
+                <div class="botao">
+                    <button class="botao botao-destaque" onclick="py5()">Clique aqui</button>
+                </div>
+            </div>
+            <div class="cartao">
+                <img src="img/py6.jpg">
+                <div class="curso-info">
+                    <h4>Python do Básico ao Avançado[+1500 min de exercícios/extras]</h4>
+                </div>
+                <div class="botao">
+                    <button class="botao botao-destaque" onclick="py6()">Clique aqui</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h4>Todos os Direitos Reservados</h4>
+            <h5>1990 - 2022</h5>
+        </footer>
+
+        <script src="js/scripts.js"></script>
+	</body>
+</html>
